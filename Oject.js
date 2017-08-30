@@ -31,4 +31,4 @@ friends:["Cleveland Brown", "Peter Griffy", "Prisca Lee"]
 
 var x =[ Masen,Willy,jon];
 
-window.alert(x[1]friends[0]);
+window.alert(x[1].friends[0]);
