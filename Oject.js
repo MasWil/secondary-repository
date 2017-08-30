@@ -9,7 +9,7 @@ grade:10
 window.alert(cole.firstName);
 window.alert(cole.firstName  = newName);
 
-
+//array in object//
 var Masen ={
 firstName:"Masen",
 age: 16, 
@@ -32,3 +32,14 @@ friends:["Cleveland Brown", "Peter Griffy", "Prisca Lee"]
 var x =[ Masen,Willy,jon];
 
 window.alert(x[1].friends[0]);
+
+
+//New object in array
+var question = prompt("How much money do you have")
+
+var bankAccount= {};
+bankAccount["name"] = "Masen",
+bankAccount["balance"] = question;
+var deposit = prompt("how much money you want to withdraw")
+var answer = [(bankAccount["balance"])-(deposit)];
+window.alert(answer);
