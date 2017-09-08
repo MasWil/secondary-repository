@@ -1,0 +1,22 @@
+<html>
+<head></head>
+
+<body>
+<script>
+function showName() {
+var userName = document.getElementById('userName').value;
+// I will take info from the user and save it as the userName
+document.getElementById('one').innerHTML="Hello" + " " + userName;
+// output userName to HTML in the id called "one"
+}
+</script>
+
+<input type="text" id="userName"></input>
+<!-- I am saving a users information-->
+<button onclick="showName()">
+Show my name
+</button>
+<p id="one"></p>
+</body>
+
+</html>
