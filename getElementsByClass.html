@@ -1,0 +1,11 @@
+<p class="stem">Donald Trump</p>
+<p class="stem">Donald Trump</p>
+<p class="stem">Donald Trump</p>
+<p class="stem">Donald Trump</p>
+<button onclick="deathNote()">
+Random death
+</button>
+function deathNote() {
+var death = Math.floor(Math.random()*4);
+document.getElementsByClassName('stem')[death].innerHTML= "<img src='https://upload.wikimedia.org/wikipedia/commons/8/85/Dead.png' width ='10%'>"
+}
