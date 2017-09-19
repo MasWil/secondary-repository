@@ -1,0 +1,9 @@
+<button onclick="background()">Clicky Clicky</button>
+<h1 id="wiki">
+WikiWiki
+</h1>
+function background(){
+document.body.style.background = "url(https://upload.wikimedia.org/wikipedia/commons/5/53/Wikipedia-logo-en-big.png)"
+document.body.style.backgroundSize="cover"
+document.getElementById('wiki').style.textShadow="5px 5px 5px #ff0000"
+}
