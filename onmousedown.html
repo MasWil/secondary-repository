@@ -1,0 +1,29 @@
+<html>
+
+<head>
+<style>
+#countUp {
+  width:200px;
+  height:200px;
+  background-size:cover;
+  background-image:url("http://blogs.ntu.edu.sg/hp331-2014-77/files/2014/11/Male-Monkey.jpg");
+  border-radius:25px;
+  
+}
+</style>
+<script>
+var i =0;
+var exp = 0;
+function fidgetSpinner() {
+  exp++
+i+ = exp;
+document.getElementById('countUp').style.transform="rotate("+i+100+"deg)";
+}
+</script>
+
+</head
+<body>
+<div id="countUp" onmousemove="fidgetSpinner()">
+</div>
+</body>
+</html>
